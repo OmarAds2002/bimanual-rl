@@ -40,4 +40,4 @@ env/
 .idea/
 *.swp
 .DS_Store
-Thumbs.db
+Thumbs.db*.mp4
