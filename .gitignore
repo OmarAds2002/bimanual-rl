@@ -1,0 +1,43 @@
+# --- training / run artifacts ---
+logs/
+runs/
+outputs/
+wandb/
+
+# --- checkpoints & recordings (big binaries; don't commit raw) ---
+*.pt
+*.pth
+*.onnx
+videos/
+# keep the demo you actually want in the README:
+!docs/demo.gif
+!docs/demo.mp4
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+.eggs/
+build/
+dist/
+.installed.cfg
+
+# --- editable install metadata ---
+*.egg-link
+pip-wheel-metadata/
+
+# --- envs / tooling ---
+.venv/
+venv/
+env/
+.python-version
+.ipynb_checkpoints/
+
+# --- IDE / OS ---
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
