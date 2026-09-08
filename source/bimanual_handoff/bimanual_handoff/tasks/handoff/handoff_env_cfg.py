@@ -113,7 +113,7 @@ class HandoffEnvCfg(DirectRLEnvCfg):
 
     # --- scene ---
     scene: InteractiveSceneCfg = InteractiveSceneCfg(
-        num_envs=512,
+        num_envs=1024,
         env_spacing=4.0,
         replicate_physics=True,
     )
